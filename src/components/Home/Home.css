@@ -1,0 +1,16 @@
+.hero-container {
+  background-color: wheat;
+  padding: 100px 0 0;
+}
+.main-title {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+.secondary-title {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.primary-button {
+  font-size: 21px;
+}
