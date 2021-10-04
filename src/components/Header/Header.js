@@ -4,8 +4,7 @@ import {
   Nav,
   Navbar,
   NavbarBrand,
-  NavLink,
-  Link
+  NavLink
 } from "react-bootstrap";
 import "./Header.css";
 
@@ -16,7 +15,7 @@ const Header = () => {
         <Container>
           <NavbarBrand to="/home">
             <div className="d-flex align-items-center">
-              <img className="logo" src="images/logo.png" alt="" />
+              <img className="logo" src="images/favicon.png" alt="" />
               <h2>Leader's University</h2>
             </div>
           </NavbarBrand>
@@ -24,6 +23,7 @@ const Header = () => {
             <NavLink className="nav-link" to="/home">Home</NavLink>
             <NavLink className="nav-link" to="/about-us">About Us</NavLink>
             <NavLink className="nav-link" to="/courses">Courses</NavLink>
+            <NavLink className="nav-link" to="/courses">Trainers</NavLink>
           </Nav>
 
         </Container>

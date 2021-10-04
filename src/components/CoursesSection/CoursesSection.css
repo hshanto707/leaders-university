@@ -1,0 +1,13 @@
+.courses-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.all-course {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.course-button {
+  margin-left: 90px;
+}

@@ -1,11 +1,14 @@
 import React from 'react';
+import CoursesHeroSection from '../CoursesHeroSection/CoursesHeroSection';
+import CoursesBody from '../CoursesBody/CoursesBody';
 
 const Courses = () => {
   return (
     <div>
-      <h2>Courses Page</h2>
+      <CoursesHeroSection></CoursesHeroSection>
+      <CoursesBody></CoursesBody>
     </div>
-  );
+  )
 };
 
 export default Courses;

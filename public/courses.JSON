@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Marketing",
+    "trainer": "Sofia Orlando",
+    "img": "./courseImages/1.png",
+    "category": "Marketing",
+    "description": "Digital Marketing: Growing a Successful Career as a Digital Marketer",
+    "price": 199
+  },
+  {
+    "id": 2,
+    "title": "Academic Writing Essentials 101",
+    "trainer": "Mike Tyler",
+    "img": "./courseImages/2.png",
+    "category": "Writing",
+    "description": "Learn the strategies, tools, and secrets to write successfully at the university level",
+    "price": 149
+  },
+  {
+    "id": 3,
+    "title": "Project Management 101",
+    "trainer": "Kevin Brand",
+    "img": "./courseImages/3.png",
+    "category": "Business",
+    "description": "Project Management: Growing a Successful Career as a Project Manager",
+    "price": 249
+  },
+  {
+    "id": 4,
+    "title": "The Complete JavaScript Course",
+    "trainer": "Colt Steele",
+    "img": "./courseImages/4.png",
+    "category": "Development",
+    "description": "Master JavaScript with projects, challenges and theory. Many courses in one!",
+    "price": 399
+  },
+  {
+    "id": 5,
+    "title": "React - The Complete Guide",
+    "trainer": "Rocky Jhonson",
+    "img": "./courseImages/5.png",
+    "category": "Development",
+    "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+    "price": 199
+  },
+  {
+    "id": 6,
+    "title": "Brand Identity Breakthrough",
+    "trainer": "Alexa Rosley",
+    "img": "./courseImages/6.png",
+    "category": "Business",
+    "description": "How to Create Your Entreprenurial Identity and Your Company's Unique Story",
+    "price": 299
+  },
+  {
+    "id": 7,
+    "title": "The Science of Leadership",
+    "trainer": "Kevin Brand",
+    "img": "./courseImages/7.png",
+    "category": "Business",
+    "description": "Leadership, management techniques and communication skills based on research from neuroscience to social psychology",
+    "price": 199
+  },
+  {
+    "id": 8,
+    "title": "Easy Guide to Personal Finance",
+    "trainer": "Jennifer Ferret",
+    "img": "./courseImages/8.jpg",
+    "category": "Finance",
+    "description": "5 Steps to Building Wealth: Budget Better, Pay Off Debt Faster, Save and Earn More Money and Invest Wisely",
+    "price": 149
+  },
+  {
+    "id": 9,
+    "title": "Graphic Design Masterclass",
+    "trainer": "Mary Rose",
+    "img": "./courseImages/9.jpg",
+    "category": "Design",
+    "description": "The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign,Design Theory, Branding and Logo Design",
+    "price": 249
+  }
+]

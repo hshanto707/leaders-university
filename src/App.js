@@ -5,7 +5,9 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Courses from "./components/Courses/Courses";
+import Trainers from "./components/Trainers/Trainers";
 import NotFound from "./components/NotFound/NotFound";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -25,11 +27,15 @@ function App() {
           <Route path="/courses">
             <Courses></Courses>
           </Route>
+          <Route path="/trainers">
+            <Trainers></Trainers>
+          </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }

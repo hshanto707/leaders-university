@@ -1,9 +1,14 @@
 import React from 'react';
+import { Container } from "react-bootstrap";
+import AboutUsBody from '../AboutUsBody/AboutUsBody';
+import AboutUsHeroSection from '../AboutUsHeroSection/AboutUsHeroSection';
+import './AboutUs.css'
 
 const AboutUs = () => {
   return (
     <div>
-      <h2>This Is About Us</h2>
+      <AboutUsHeroSection />
+      <AboutUsBody />
     </div>
   );
 };

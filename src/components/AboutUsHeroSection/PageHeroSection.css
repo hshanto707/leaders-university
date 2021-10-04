@@ -1,0 +1,11 @@
+.page-hero-container {
+  background-image: url("../../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.page-title {
+  font-size: 70px;
+  margin: 0;
+  color: white;
+}

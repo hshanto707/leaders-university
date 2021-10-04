@@ -1,0 +1,26 @@
+.course-card {
+  margin: 0 50px 50px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #EAEAEA;
+  transition: 0.5s;
+  height: 95%;
+}
+.course-card:hover {
+  box-shadow: 10px 10px 10px gray;
+}
+.card-img {
+  border-radius: 10px 10px 0 0;
+}
+.card-title {
+  font-size: 30px;
+}
+.category {
+  font-size: 20px;
+  font-weight: bold;
+}
+.price{
+  font-size: 30px;
+  font-weight: bold;
+}
+

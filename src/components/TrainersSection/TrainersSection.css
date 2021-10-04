@@ -1,0 +1,7 @@
+.all-trainers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.trainers-button {
+  margin-top: 50px;
+}

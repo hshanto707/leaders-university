@@ -1,0 +1,17 @@
+.trainer-card {
+  margin: 50px;
+  border: none;
+  border-radius: 50%;
+  transition: 0.5s;
+  text-align: center;
+}
+.trainer-img {
+  border-radius: 50%;
+}
+.card-title {
+  font-size: 30px;
+}
+.category {
+  font-size: 20px;
+  font-weight: bold;
+}

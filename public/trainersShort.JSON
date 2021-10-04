@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Sofia Orlando",
+    "role": "Digital Marketing Instructor",
+    "img": "./trainersImages/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Mike Tyler",
+    "role": "Writing Instructor",
+    "img": "./trainersImages/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Mary Rose",
+    "role": "Graphic Design Instructor",
+    "img": "./trainersImages/3.png"
+  },
+  {
+    "id": 4,
+    "name": "Colt Steele",
+    "role": "JavaScript Instructor",
+    "img": "./trainersImages/4.png"
+  }
+]
