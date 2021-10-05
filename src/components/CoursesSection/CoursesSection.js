@@ -17,16 +17,11 @@ const CoursesSection = () => {
       <Container>
         <h1 className="page-title">Courses</h1>
 
-        <div className="courses-container align-items-center">
-          <div className="all-course">
+          <div className="all-course mx-auto">
             {
               courses.map(course => <Course key={course.id} course={course}></Course>)
             }
           </div>
-          <div>
-            <Button className="primary-button course-button px-4" variant="danger">View All</Button>
-          </div>
-        </div>
       </Container>
     </div>
   );

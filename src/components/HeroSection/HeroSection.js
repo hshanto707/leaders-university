@@ -12,7 +12,6 @@ const HeroSection = () => {
             <h3 className="secondary-title">
               Learn From The Best Trainers To Unlock The Next Level <br/> Of Your Career
             </h3>
-            <Button className="primary-button px-4" variant="light">Contact Us</Button>
           </div>
           <div>
             <img className="hero-img" src="images/hero.png" alt="" />

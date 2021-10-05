@@ -22,9 +22,6 @@ const TrainersSection = () => {
               trainers.map(trainer => <Trainer key={trainer.id} trainer={trainer}></Trainer>)
             }
         </div>
-        <div className="text-center">
-          <Button className="primary-button trainers-button px-4" variant="danger">View All</Button>
-        </div>
       </Container>
     </div>
   );

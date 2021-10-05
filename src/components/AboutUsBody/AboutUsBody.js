@@ -4,7 +4,8 @@ import { Container } from "react-bootstrap";
 const AboutUsBody = () => {
   return (
     <div className="mt-5">
-      <Container>
+      <Container className="d-flex align-items-center">
+        <div>
         <p className="details">
           If you want to learn what it takes to make the next move in your
           career, you’ve come to the right place. As a global destination for
@@ -31,6 +32,10 @@ const AboutUsBody = () => {
           yourself. It seems a lot of work. We are here to make your task
           easier. Our instructors are dedicated to give you the most.
         </p>
+        </div>
+        <div>
+        <img className="about-us-img" src="images/about-us.png" alt="" />
+        </div>
       </Container>
     </div>
   );

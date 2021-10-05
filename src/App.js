@@ -12,30 +12,30 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-        <Header></Header>
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/home">
+          <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route path="/about-us">
+          <Route exact path="/about-us">
             <AboutUs></AboutUs>
           </Route>
-          <Route path="/courses">
+          <Route exact path="/courses">
             <Courses></Courses>
           </Route>
-          <Route path="/trainers">
+          <Route exact path="/trainers">
             <Trainers></Trainers>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
-      </Router>
       <Footer></Footer>
+      </Router>
     </div>
   );
 }

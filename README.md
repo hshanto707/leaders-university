@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome To Leader's University
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build by bootstrap, react and react router
 
 ## Available Scripts
 

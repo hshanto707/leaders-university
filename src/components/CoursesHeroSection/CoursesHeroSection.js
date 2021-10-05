@@ -1,10 +1,10 @@
 import React from 'react';
-import '../AboutUsHeroSection/PageHeroSection.css'
+import './CoursesHeroSection.css'
 
 const CoursesHeroSection = () => {
   return (
     <div className="page-hero-container text-center">
-      <h1 className="page-title">All Courses</h1>
+      <h1 className="title">All Courses</h1>
     </div>
   );
 };
